@@ -1,0 +1,58 @@
+.landing {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../assets/hompage_header.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding-top: 3rem;
+}
+
+/* Small screens (up to 767px) */
+@media (max-width: 767px) {
+  /* .landing-header {
+    font-size: 24px;
+    text-align: left; /* Align text to the left */
+  /* padding-left: 1rem; Add left padding for better readability */
+  /* }  */
+  .header-inside {
+    margin: 4% 0 6% 0;
+    text-align: left; /* Align text to the left */
+    padding-left: 1rem; /* Add left padding for better readability */
+  }
+  .landing-btn {
+    margin-top: 8%;
+  }
+}
+
+/* Medium screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .landing-header {
+    font-size: 28px;
+    text-align: left;
+    padding-left: 1rem;
+  }
+  .header-inside {
+    margin: 3% 0 5% 0;
+    text-align: left;
+    padding-left: 1rem;
+  }
+}
+
+/* Extra-large screens (992px and above) */
+@media (min-width: 992px) {
+  .landing-header {
+    font-size: 36px;
+  }
+  .header-inside {
+    margin: 2% 0 4% 0;
+  }
+  .landing-btn {
+    margin-top: 12%;
+  }
+}
+/* <Grid item xs={6} style={{ marginTop: "16px" }}> */

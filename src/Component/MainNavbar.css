@@ -1,0 +1,151 @@
+
+
+.gpt3__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gpt3__navbar-links {
+  display: flex;
+  justify-content: flex-start; /* Align items to the right */
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.toolbar {
+  align-items: center;
+  justify-content: flex-start;
+  height: 100px;
+}
+
+.gpt3__navbar-links_logo {
+  margin-right: 2rem;
+}
+
+.gpt3__navbar-links_logo img {
+  width: 162.56px;
+  height: 40.02px;
+}
+
+.gpt3__navbar-links_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.gpt3__navbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.gpt3__navbar-links_container p,
+.gpt3__navbar-sign p,
+.Gpt3__login__singup,
+.gpt3__navbar-menu_container p {
+  color: #39432B;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+/* Sign-up button */
+.gpt3__navbar-sign button,
+.gpt3__navbar-menu_container button {
+  padding: 0.5rem 1rem;
+  color: white;
+  background: rgba(162, 247, 136, 0.849);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.gpt3__navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+.gpt3__navbar-menu svg {
+  cursor: pointer;
+}
+/* styles to cover the entire page */
+.gpt3__navbar-menu_container.open {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  
+  background-color: rgba(255, 255, 255, 0.9); 
+  z-index: 1000; 
+}
+
+
+.gpt3__navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  /* background: #eef8ec; */
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(247, 245, 245, 0.2);
+}
+
+.gpt3__navbar-menu_container p {
+  margin: 1rem 0;
+}
+
+.gpt3__navbar-menu_container-links-sign {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  /* Adjust styles for screens less than or equal to 700px */
+  .gpt3__navbar {
+    padding: 1rem;
+    background-color:#11adeb;
+  }
+  .gpt3__navbar-links_container {
+    display: none; /* Hide the navigation links container */
+  }
+  .gpt3__navbar-menu {
+    display: flex; /* Display the menu icon */
+  }
+}
+
+@media screen and (max-width: 550px) {
+  /* Further adjustments for screens less than or equal to 550px */
+  .gpt3__navbar {
+    padding: 0.5rem;
+  }
+  .gpt3__navbar-sign {
+    display: none; 
+  }
+  .gpt3__navbar-menu_container {
+    top: 20px; 
+  }
+  .gpt3__navbar-menu_container-links-sign {
+    display: block;
+  }
+}

@@ -1,0 +1,1 @@
+export {default as PropertyFeed } from './LandingPage/PropertyFeed';
