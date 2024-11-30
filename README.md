@@ -1,11 +1,8 @@
 ########################################*****************************************************############################################
-Elimu Trees is a dedicated initiative by the Ministry of Education - Kenya, with a profound mission to cultivate a greener and more sustainable environment.
-Our goal is to engage Learners, staff, ministry of education directorates, and enthusiastic volunteers in planting trees and nurturing them until they thrive. 
-We believe in the transformative power of education and environmental stewardship.
+Qwako properties. a platform that brings all players in property sale and management together
 ########################################*****************************************************############################################
 
-The project is developed using React.js and material UI for the frontend while the backend we have implemented using Springboot( a java framework) the server to be used is IIS
-              
+The project is developed using React.js and material UI for the frontend.
 ########################################*****************************************************############################################
 
 
